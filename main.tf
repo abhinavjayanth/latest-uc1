@@ -9,7 +9,11 @@ terraform {
 
 provider "azurerm" {
   features {
-    
+  client_id       =  var.secret1_value
+  client_secret   =  var.secret2_value
+  tenant_id       =  var.secret3_value
+  subscription_id =  var.secret4_value
+
   }
 }
 module "contos" {
