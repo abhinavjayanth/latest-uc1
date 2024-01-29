@@ -40,9 +40,9 @@ key_vault_name   = "varkeyvaultabh003"
     ]
 
  secret1_name    = "clientID"
- secret1_value  = "ffc9b97f-9c0f-49bf-b949-bb69e4b139cd"
+ secret1_value  = "ffc9b97f-9c0f-49bf-b949-bb69e4b139cd" 
  secret2_name   = "clientsecret"
- secret2_value  = ".W48Q~OQ7BW33B2N9hRx4hcV9saZJInJC.H~AcU6"
+ secret2_value  = "lT08Q~XQjcloS5nh3KQWL2o0NzlMqA4cDvYG0cCI"
  secret3_name = "tenantID"
  secret3_value  = "750f2040-ab7f-42ed-8001-36ba05e30750"
  secret4_name   = "subscriptionID"
