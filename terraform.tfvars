@@ -21,13 +21,13 @@ blob-container-name = "log-container"
 container-access-type ="private"
 sql_server-name = "databaseserver-abhi"
 sql_server-version = "12.0"
-sql_server-administrator_login = "databaseserver-abhi"
+sql_server-administrator_login = "dbaseserver-abhi"
 sql_server-administrator_login_password = "Jayanth@12345678"
-sql_database-name = "database-abhi"
+sql_database-name = "dbase-abhi"
 loganalyticsws-name = "loganalytics-workspace"
 datafactory-name = "logstrg-df1"
 
-key_vault_name   = "varkeyvaultabh003"
+key_vault_name   = "varkeyvaultabh004"
   soft_delete_retention_days    = 7
   purge_protection_enabled   = false
   sku_name    = "standard"
