@@ -8,13 +8,12 @@ terraform {
 }
 
 provider "azurerm" {
-  features {
-  client_id       =  var.secret1_value
-  client_secret   =  var.secret2_value
-  tenant_id       =  var.secret3_value
-  subscription_id =  var.secret4_value
-
-  }
+  client_id       = "ffc9b97f-9c0f-49bf-b949-bb69e4b139cd" 
+  client_secret   =  "lT08Q~XQjcloS5nh3KQWL2o0NzlMqA4cDvYG0cCI"
+  tenant_id       =  "750f2040-ab7f-42ed-8001-36ba05e30750" 
+  subscription_id =  "a1085f45-3c41-4277-b3a7-cd100aaffb99"   
+  skip_provider_registration  = true
+  features {}
 }
 module "contos" {
     source = "./contos"
